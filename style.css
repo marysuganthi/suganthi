@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins',sans-serif;
+    box-sizing:border-box;
+}
+body{
+    background-color:black;
+     
+}
+.header-text{
+    color:white;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-
+    background-size: auto;
+    background-position: right;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width=250px;
+}
+
+nav ul li{
+          display: inline-block;
+          list-style: none;
+          margin: 20px 40px;
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    background: #f00f3400;
+    position: absolute;
+    left: 0%;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text {
+    margin-top:10%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 10px;
+}
+.header-text h1 span{
+    color: hsl(219, 100%, 50%);
+}
+/*---------------------------my self--------------------*/
+#about{
+    padding: 90px 0;
+    color: hwb(0 79% 18%);
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-2{
+    flex-basis:60%;
+    font-size: 20px;
+}
+.sub-title{
+    font-size: 500px;
+    font-weight: 800;
+    color: #ff004f;
+}
+.tab-titles{
+    display:flex;
+    margin: 20px 0 40px;
+}
+.tab-links{
+    margin-right:40px;
+    font-size:38px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background:#ff3c00;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-link::after{
+    width:100%;
+}
+.tab-contents ul li{
+    list-style:none;
+    margin: 10px 0;
+}
+.tab-contents ul li span{
+    color:hsl(355, 100%, 50%);
+    font-size:25px; 
+}
+.tab-contents{
+    display:none;
+}
+.tab-contents.active-tab{
+    display:block;
+}
+/*---------------Qualification------------------*/
+#qualification{
+    padding: 70px 100px;
+    color:rgb(255, 255, 255);
+    background-color:c:\Users\User\Desktop\suganthi\su.jpg;
+     
+}
+
+.qualification-list ul li span{
+    font-size: 30px;
+    color:rgb(255, 0, 0);
+}
+.qualification-list ul li{
+    list-style: none;
+    margin:40px 10px;
+    font-size: 20px;
+    color: rgb(255, 240, 246);
+}
+/*--------------------personal details-------------------*/
+#personal details{
+    padding:70px 100px;
+    
+}
+.sub-title2 span{
+    font-size:40px;
+    color: hsl(340, 20%, 94%);
+    
+    
+}
+.personal-list ul li{
+    list-style: none;
+    margin:37px 20px;
+    font-size: 15px;
+    color:rgb(255, 240, 253);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
